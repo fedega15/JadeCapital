@@ -34,8 +34,9 @@ export const SliderItem = ({
             "uppercase tracking-[10px] text-white translate-y-[30px] blur-[20px] opacity-0 animation-delay-2",
             itemActive === id && "animate-show-content"
           )}
+          translate="no"
         >
-         <span>  {name} </span>
+          {name} 
         </p>
         <h2
           className={cn(
