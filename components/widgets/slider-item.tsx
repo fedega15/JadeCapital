@@ -7,6 +7,7 @@ interface SliderItemProps {
   image: string;
   brand: string;
   name: string;
+  translate:string;
   description: string;
 }
 
@@ -15,6 +16,7 @@ export const SliderItem = ({
   id,
   brand,
   name,
+  translate,
   image,
   description,
 }: SliderItemProps) => {
