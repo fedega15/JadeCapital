@@ -66,7 +66,7 @@ export default function Home() {
         />
       </ul>
       <Arrows onClickPrev={() => onPrev()} onClickNext={() => onNext()} />
-      <ul className="absolute bottom-0 z-10 flex sm:justify-end gap-3 w-full h-[180px] sm:h-[250px] px-14 overflow-y-hidden overflow-x-auto ">
+      <ul className="absolute bottom-0 z-10 flex sm:justify-end gap-3 w-full h-[230px] sm:h-[250px] px-14 overflow-y-hidden overflow-x-auto ">
         <SliderThumbnailsItem
           itemActive={itemActive}
           image="/imgs/2.webp"
