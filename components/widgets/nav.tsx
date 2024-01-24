@@ -7,7 +7,7 @@ export const Nav = () => {
             <li>
               <Link
                 href="/"
-                className="relative text-white transition-colors
+                className="relative text-2xl text-white transition-colors
                     duration-300 before:absolute before:left-0 before:-bottom-2 
                     before:w-1 before:h-0.5 before:bg-white before:rounded-full
                     before:transition-all before:duration-300 hover:before:w-full"
@@ -19,7 +19,7 @@ export const Nav = () => {
             <li>
               <Link
                 href="/"
-                className="relative text-white transition-colors
+                className="relative text-2xl text-white transition-colors
                     duration-300 before:absolute before:left-0 before:-bottom-2 
                     before:w-1 before:h-0.5 before:bg-white before:rounded-full
                     before:transition-all before:duration-300 hover:before:w-full"
@@ -31,7 +31,7 @@ export const Nav = () => {
             <li>
               <Link
                 href="/"
-                className="relative text-white transition-colors
+                className="relative text-2xl text-white transition-colors
                     duration-300 before:absolute before:left-0 before:-bottom-2 
                     before:w-1 before:h-0.5 before:bg-white before:rounded-full
                     before:transition-all before:duration-300 hover:before:w-full"
@@ -43,7 +43,7 @@ export const Nav = () => {
             <li>
               <Link
                 href="/"
-                className="relative text-white transition-colors
+                className="relative text-2xl text-white transition-colors
                     duration-300 before:absolute before:left-0 before:-bottom-2 
                     before:w-1 before:h-0.5 before:bg-white before:rounded-full
                     before:transition-all before:duration-300 hover:before:w-full"

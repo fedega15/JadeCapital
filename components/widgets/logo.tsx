@@ -6,10 +6,10 @@ export const Logo = () => {
       <Link
         href="/"
         className="uppercase font-black text-white flex items-center
-         text-lg"
+         text-4xl"
       >
         <span
-          className="bg-white text-black w-4 h-4 flex items-center 
+          className="bg-white text-black w-6 h-10 flex items-center 
          justify-center rounder mr-px"
         >
           J
