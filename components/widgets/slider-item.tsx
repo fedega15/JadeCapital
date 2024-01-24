@@ -7,7 +7,6 @@ interface SliderItemProps {
   image: string;
   brand: string;
   name: string;
-  translate:string;
   description: string;
 }
 
@@ -16,7 +15,6 @@ export const SliderItem = ({
   id,
   brand,
   name,
-  translate,
   image,
   description,
 }: SliderItemProps) => {
@@ -37,7 +35,7 @@ export const SliderItem = ({
             itemActive === id && "animate-show-content"
           )}
         >
-          {name}
+         <span>  {name} </span>
         </p>
         <h2
           className={cn(

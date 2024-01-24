@@ -31,7 +31,6 @@ export default function Home() {
           brand="EVENTO SOCIAL"
           name="Jade Capital"
           description="¡Cotizá tu evento social!"
-          translate="no"
         />
         <SliderItem
           itemActive={itemActive}
@@ -40,17 +39,16 @@ export default function Home() {
           brand="EVENTO CORPORATIVO"
           name="Jade Capital"
           description="¡Cotizá tu evento corporativo!"
-          translate="no"
         />
         <SliderItem
           itemActive={itemActive}
           id={3}
+          name="ASD"
           image="/imgs/3.webp"
           brand="CATERING"
-          name="Jade Capital"
           description="¡Cotizá tu catering!"
-          translate="no"
         />
+         <div dangerouslySetInnerHTML={{ __html: 'Jade Capital' }} />
         <SliderItem
           itemActive={itemActive}
           id={4}
@@ -58,7 +56,6 @@ export default function Home() {
           brand="PLANIFICACIÓN COORDINACIÓN"
           name="Jade Capital"
           description="¡Cotizá tu planifiacón y coordinación!"
-          translate="no"
         />
         <SliderItem
           itemActive={itemActive}
@@ -67,7 +64,6 @@ export default function Home() {
           brand="EQUIPAMIENTO AUDIOVISUAL"
           name="Jade Capital"
           description="¡Cotizá tu Equipamiento Audiovisual!"
-          translate="no"
         />
       </ul>
       <Arrows onClickPrev={() => onPrev()} onClickNext={() => onNext()} />
@@ -77,7 +73,6 @@ export default function Home() {
           image="/imgs/2.webp"
           id={1}
           brand="Evento Social"
-          translate="no"
           onClick={() => setItemActive(1)}
         />
         <SliderThumbnailsItem
@@ -85,7 +80,6 @@ export default function Home() {
           image="/imgs/1.webp"
           id={2}
           brand="Evento Corporativo"
-          translate="no"
           onClick={() => setItemActive(2)}
         />
         <SliderThumbnailsItem
@@ -93,7 +87,6 @@ export default function Home() {
           image="/imgs/3.webp"
           id={3}
           brand="Catering"
-          translate="no"
           onClick={() => setItemActive(3)}
         />
         <SliderThumbnailsItem
@@ -101,7 +94,6 @@ export default function Home() {
           image="/imgs/4.webp"
           id={4}
           brand="Planificación Coordinación"
-          translate="no"
           onClick={() => setItemActive(4)}
         />
         <SliderThumbnailsItem
@@ -109,7 +101,6 @@ export default function Home() {
           image="/imgs/5.webp"
           id={5}
           brand="Equipamiento Audiovisual"
-          translate="no"
           onClick={() => setItemActive(5)}
         />
       </ul>

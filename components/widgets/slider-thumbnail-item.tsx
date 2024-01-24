@@ -6,7 +6,6 @@ interface SliderThumbnailItemProps {
   id: number;
   image: string;
   brand: string;
-  translate:string;
   onClick: () => void;
 }
 
@@ -15,7 +14,6 @@ export const SliderThumbnailsItem = ({
   id,
   image,
   brand,
-  translate,
   onClick,
 }: SliderThumbnailItemProps) => {
   return (
