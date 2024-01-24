@@ -29,7 +29,7 @@ export default function Home() {
           id={1}
           image="/imgs/2.webp"
           brand="EVENTO SOCIAL"
-          name="Jade Capital"
+          name="Jade-Capital"
           description="¡Cotizá tu evento social!"
         />
         <SliderItem
@@ -37,7 +37,7 @@ export default function Home() {
           id={2}
           image="/imgs/1.webp"
           brand="EVENTO CORPORATIVO"
-          name="Jade Capital"
+          name="Jade-Capital"
           description="¡Cotizá tu evento corporativo!"
         />
         <SliderItem
@@ -54,7 +54,7 @@ export default function Home() {
           id={4}
           image="/imgs/4.webp"
           brand="PLANIFICACIÓN COORDINACIÓN"
-          name="Jade Capital"
+          name="  J&#x200B;a&#x200B;d&#x200B;e&#x200B; C&#x200B;a&#x200B;p&#x200B;i&#x200B;t&#x200B;a&#x200B;l"
           description="¡Cotizá tu planifiacón y coordinación!"
         />
         <SliderItem
