@@ -40,6 +40,7 @@ export const SliderThumbnailsItem = ({
           "absolute top-auto right-[10px] bottom-[5px] left-[10px] z-10 translate-y-[30px] blur-[20px] opacity-0 animation-delay-1",
           itemActive === id && "animate-show-content"
         )}
+        translate="no"
       >
         <h2 className="line-clamp-0 sm:text-sm">{brand}</h2>
       </div>

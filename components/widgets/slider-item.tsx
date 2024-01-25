@@ -28,7 +28,7 @@ export const SliderItem = ({
       <div className="relative w-full h-full">
         <Image src={image} alt="Image" fill className="object-cover" />
       </div>
-      <div className="space-y-4 absolute left-[10%] top-[20%] w-full max-w-[500px] z-10 ">
+      <div className="space-y-4 absolute left-[10%] top-[30%] w-full max-w-[500px] z-10 ">
         <p
           className={cn(
             "uppercase tracking-[10px] text-white translate-y-[30px] blur-[20px] opacity-0 animation-delay-2",
@@ -36,13 +36,14 @@ export const SliderItem = ({
           )}
           translate="no"
         >
-          {name} 
+          {name}
         </p>
         <h2
           className={cn(
             "text-4xl sm:text-6xl lg:text-8xl m-0 text-white font-bold translate-y-[30px] blur-[20px] opacity-0 animation-delay-1 overflow-ellipsis",
             itemActive === id && "animate-show-content"
           )}
+          translate="no"
         >
           {brand}
         </h2>
