@@ -3,40 +3,46 @@ import React from 'react';
 
 const NosotrosSection = () => {
   return (
-    <section id="nosotros"  className="text-gray-600 body-font">
+    <section   className="text-gray-600 body-font">
+      
       <div   className="container px-5 py-24 mx-auto">
-      <div  className="flex mt-6 justify-center">
-            <div className="w-16 h-1 rounded-full bg-yellow-500 inline-flex"></div>
+        
+      <div  id="nosotros" className="flex mt-6 justify-center">
+            <div className="w-16 h-1 rounded-full mt-[70px] bg-yellow-500 inline-flex"></div>
           </div>
         <div  className="text-center mb-20">
           <br />
           <br /> 
-        <div  className="w-[150px] h-[150px] inline-flex items-center justify-center rounded-full bg-indigo-100 text-white mb-5">
+          <div   className="w-[222px] h-[100px] inline-flex items-center justify-centermb-5">
       {/* Icono SVG o imagen aquí */}
-        <h1  className="sm:text-3xl text-2xl font-medium title-font text-black mb-0">
-          Nosotros
-          </h1> 
-    </div>  
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-yellow-500 mb-4">
+      <span
+          className="bg-yellow-500 text-black W-6 h-[50px] p-2 rounded-md  font-black flex items-center text-4xl uppercase 
+         justify-center rounder mr-px"
+        >
+      NOSOTROS
+        </span>
+    </div>
+         {/*  <h1 className="sm:text-3xl text-2xl font-medium title-font text-white mb-4">
           Viví tu experiencia Jade Fiestas.
-          </h1>
+          </h1> */}
           <p  className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-white">
           Somos un equipo de profesionales especializados en la organización de eventos exclusivos. Además, y sobre todas las cosas, somos artífices de grandes sueños, un grupo humano que entiende que vale la pena celebrar la vida y ofrece un escenario para que todos los anhelos se conviertan en realidad. Desde 2009 hasta la actualidad hemos hecho posible más de 800 experiencias únicas que perdurarán para siempre en la memoria de quienes nos elijen. Evolucionamos en nuestras propuestas y servicios, siempre desde un espacio privilegiado tanto para reuniones sociales como corporativas.
           </p>
           <br id="servicios"   />
-          <br   />
-          <br />
           <br />
           <div  className="flex mt-6 justify-center">
             <div  className="w-16 h-1 rounded-full bg-yellow-500 inline-flex"></div>
           </div>
           <br />
           <br />
-          <div   className="w-[150px] h-[150px] inline-flex items-center justify-center rounded-full bg-indigo-100 text-white mb-5">
+          <div   className="w-[210px] h-[100px] inline-flex items-center justify-centermb-5">
       {/* Icono SVG o imagen aquí */}
-          <h1  className="sm:text-3xl text-2xl font-medium title-font text-black mb-0">
-          Servicios
-          </h1> 
+      <span
+          className="bg-yellow-500 text-black W-6 h-[50px] p-2 rounded-md  font-black flex items-center text-4xl uppercase 
+         justify-center rounder mr-px"
+        >
+      SERVICIOS
+        </span>
     </div>
         </div>
 
