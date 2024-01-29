@@ -24,14 +24,14 @@ export default function Home() {
   };
   return (
     <>
-    <div className="h-screen relative" id="inicio">
-      <ul>
+    <div className="h-screen relativeFiestaspx]" id="inicio">
+      <ul >
         <SliderItem
           itemActive={itemActive}
           id={1}
           image="/imgs/2.webp"
           brand="EVENTO SOCIAL"
-          name="Jade Capital"
+          name="Jade Fiestas"
           description="¡Cotizá tu evento social!"
         />
         <SliderItem
@@ -39,7 +39,7 @@ export default function Home() {
           id={2}
           image="/imgs/1.webp"
           brand="EVENTO CORPORATIVO"
-          name="Jade Capital"
+          name="Jade Fiestas"
           description="¡Cotizá tu evento corporativo!"
         />
         <SliderItem
@@ -47,7 +47,7 @@ export default function Home() {
           id={3}
           image="/imgs/3.webp"
           brand="CATERING"
-          name="Jade Capital"
+          name="Jade Fiestas"
           description="¡Cotizá tu catering!"
         />
         <SliderItem
@@ -55,7 +55,7 @@ export default function Home() {
           id={4}
           image="/imgs/4.webp"
           brand="PLANIFICACIÓN COORDINACIÓN"
-          name="Jade Capital"
+          name="Jade Fiestas"
           description="¡Cotizá tu planifiacón y coordinación!"
         />
         <SliderItem
@@ -63,12 +63,12 @@ export default function Home() {
           id={5}
           image="/imgs/5.webp"
           brand="EQUIPAMIENTO AUDIOVISUAL"
-          name="Jade Capital"
+          name="Jade Fiestas"
           description="¡Cotizá tu Equipamiento Audiovisual!"
         />
       </ul>
       <Arrows onClickPrev={() => onPrev()} onClickNext={() => onNext()} />
-      <ul className="absolute bottom-0 z-10 flex sm:justify-end gap-3 w-full h-[230px] sm:h-[250px] px-14 overflow-y-hidden overflow-x-auto ">
+      <ul  className="absolute bottom-0 z-5 flex sm:justify-end gap-3 w-full h-[230px] sm:h-[250px] px-14 overflow-y-hidden overflow-x-auto ">
         <SliderThumbnailsItem
           itemActive={itemActive}
           image="/imgs/2.webp"

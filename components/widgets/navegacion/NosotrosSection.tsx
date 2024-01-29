@@ -3,19 +3,20 @@ import React from "react";
 
 const NosotrosSection = () => {
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-2 mx-auto">
-        <div id="nosotros" className="flex mt-6 justify-center">
-          <div className="w-16 h-1 rounded-full mt-[70px] bg-yellow-500 inline-flex"></div>
+    <section id="nosotros" className="text-gray-600 body-font">
+      <br />
+      <br />
+      <br />
+      <div  className="container px-5 py-2 mx-auto">
+        <div  className="flex mt-6 justify-center">
+          <div className="w-[700px] h-[2px] rounded-full mt-[-30px] bg-yellow-500 inline-flex"></div>
         </div>
         <div className="text-center mb-20">
-          <br />
-          <br />
           <div className="w-[222px] h-[100px] inline-flex items-center justify-centermb-5">
             {/* Icono SVG o imagen aquí */}
             <span
-              className="bg-yellow-500 text-black W-6 h-[50px] p-2 rounded-md  font-black flex items-center text-4xl uppercase 
-         justify-center rounder mr-px"
+              className="bg-yellow-500 mt-[31px]  text-black W-6 h-[50px] p-2 rounded-md  font-black flex items-center text-4xl uppercase 
+              justify-center rounder mr-px"
             >
               NOSOTROS
             </span>
@@ -25,8 +26,9 @@ const NosotrosSection = () => {
           </h1> */}
           <br />
           <br />
+          <br />
 
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-white">
+          <p className=" mb-[50px] text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-white">
             Somos un equipo de profesionales especializados en la organización
             de eventos exclusivos. Además, y sobre todas las cosas, somos
             artífices de grandes sueños, un grupo humano que entiende que vale
@@ -39,15 +41,15 @@ const NosotrosSection = () => {
           </p>
           <br id="servicios" />
           <br />
-          <div className="flex mt-6 justify-center">
-            <div className="w-16 h-1 rounded-full bg-yellow-500 inline-flex"></div>
+          <div className="flex mt-[36px] justify-center">
+            <div className="w-[700px] h-[2px] -mb-[100px] -mt-2 rounded-full bg-yellow-500 inline-flex"></div>
           </div>
           <br />
           <br />
           <div className="w-[210px] h-[100px] inline-flex items-center justify-centermb-5">
             {/* Icono SVG o imagen aquí */}
             <span
-              className="bg-yellow-500 text-black W-6 h-[50px] p-2 rounded-md  font-black flex items-center text-4xl uppercase 
+              className="bg-yellow-500 -mt-[20px]  text-black W-6 h-[50px] p-2 rounded-md  font-black flex items-center text-4xl uppercase 
          justify-center rounder mr-px"
             >
               SERVICIOS
@@ -74,11 +76,23 @@ const NosotrosSection = () => {
           )}
         </div>
         <div className="flex mt-6 justify-center">
-          <div className="w-16 h-1 rounded-full bg-yellow-500 inline-flex"></div>
+          <div className="w-[700px] h-[2px] rounded-full bg-yellow-500 inline-flex"></div>
         </div>
-        <button className="flex mx-auto mt-16 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
-          Botón
-        </button>
+        <div
+        className="fixed left-4 bottom-4 flex items-center cursor-pointer z-6"
+        onClick={() => {
+          // Agrega aquí la lógica para abrir el enlace de WhatsApp
+          window.open("https://wa.me/xxxxxxxxxx", "_blank");
+        }}
+      >
+        <Image
+          src="/imgs/wp.png"
+          alt="WhatsApp Logo"
+          width={30}
+          height={30}
+        />
+        <span className="ml-2">¡Contáctanos por WhatsApp!</span>
+      </div>
       </div>
     </section>
   );

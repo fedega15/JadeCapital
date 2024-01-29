@@ -42,7 +42,7 @@ export const SliderThumbnailsItem = ({
         )}
         translate="no"
       >
-        <h2 className="line-clamp-0 sm:text-sm">{brand}</h2>
+        <h2  className="line-clamp-0 sm:text-sm">{brand}</h2>
       </div>
     </li>
   );

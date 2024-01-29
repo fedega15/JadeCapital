@@ -22,7 +22,7 @@ export const SliderItem = ({
     <li
       className={cn(
         "absolute inset-0 overflow-hidden after:absolute after:w-full after:h-full after:left-0 after:bottom-0 after:bg-slider transition-all duration-500",
-        itemActive === id ? "opacity-100 z-10" : "opacity-0"
+        itemActive === id ? "opacity-100 z-3" : "opacity-0"
       )}
     >
       <div className="relative w-full h-full">
@@ -55,7 +55,7 @@ export const SliderItem = ({
         >
           {description}
         </p>
-      </div>
-    </li>
+      </div >
+    </li >
   );
 };
