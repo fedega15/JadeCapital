@@ -58,7 +58,7 @@ const NosotrosSection = () => {
           )}
           {renderCard(
             "Catering",
-            "Estamos en constante búsqueda de tendencias en el mercado sumando sabores y experiencias para todo tipo de paladares.Contamos con opciones de servicios que se adaptan a todo tipo de eventos: bodas, reuniones sociales, corporativas, etc.Propuestas a la carta y adaptadas a tus necesidades y preferencias.Garantizamos calidad, sabor y frescura en cada propuesta gourmet.",
+            "Estamos en constante búsqueda de tendencias en el mercado sumando sabores y experiencias para todo tipo de paladares.Contamos con opciones de servicios que se adaptan a todo tipo de eventos: bodas, reuniones sociales, corporativas, etc. Propuestas a la carta y adaptadas a tus necesidades y preferencias. Garantizamos calidad, sabor y frescura en cada propuesta gourmet.",
             "/imgs/b.jpg"
           )}
           {renderCard(
@@ -102,7 +102,7 @@ const renderCard = (title: string, description: string, image: string) => (
         />
       </div>
     </div>
-    <p className="mb-[50px] text-base leading-relaxed xl:w-4/4 lg:w-4/4 mx-auto text-white sm:text-justify" style={{ textAlign: "justify", letterSpacing: "-0.08em", hyphens: "auto" }}>
+    <p className="mb-[50px] text-base leading-relaxed xl:w-[350px] lg:w-4/4 mx-auto text-white sm:text-justify" style={{ textAlign: "justify", letterSpacing: "-0.08em", hyphens: "auto" }}>
   {description}
 </p>
 
