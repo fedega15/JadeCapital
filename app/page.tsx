@@ -4,6 +4,7 @@ import { Arrows } from "@/components/widgets/arrows";
 import { useState } from "react";
 import { SliderThumbnailsItem } from "@/components/widgets/slider-thumbnail-item";
 import NosotrosSection from "@/components/widgets/navegacion/NosotrosSection";
+import ContactoSection from "@/components/widgets/navegacion/ContactoSection";
 
 export default function Home() {
   const [itemActive, setItemActive] = useState<number>(1);
@@ -24,7 +25,7 @@ export default function Home() {
   };
   return (
     <>
-    <div className="h-screen relativeFiestaspx]" id="inicio">
+    <div className="h-screen relative container" id="inicio">
       <ul >
         <SliderItem
           itemActive={itemActive}
@@ -109,6 +110,7 @@ export default function Home() {
     </div>
       <div>
       <NosotrosSection/>
+      <ContactoSection/>
       </div>
       </>
   );
