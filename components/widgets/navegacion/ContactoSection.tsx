@@ -3,7 +3,8 @@ import React from "react";
 
 const ContactoSection = () => {
   return (
-    <section className="text-gray-600 body-font relative ">
+    <section id="contacto" className="text-gray-600 body-font relative ">
+      <hr />
       <div className=" mb-[200px] container px-0 py-2 mx-auto">
         <div className="text-center mb-20">
           <div className="w-[222px] h-[100px] inline-flex items-center justify-center mb-5">

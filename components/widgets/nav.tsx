@@ -42,7 +42,7 @@ export const Nav = () => {
             </li>
             <li>
               <Link
-                href="/"
+                href="#contacto"
                 className="relative text-2xl text-white transition-colors
                     duration-300 before:absolute before:left-0 before:-bottom-2 
                     before:w-1 before:h-0.5 before:bg-white before:rounded-full

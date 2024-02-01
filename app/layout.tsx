@@ -7,8 +7,8 @@ import { Header } from "@/components/widgets/header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jade-Capital ",
-  description: "Jade-Capital ",
+  title: "Jade Fiestas ",
+  description: "Jade Fiestas ",
 };
 
 export default function RootLayout({

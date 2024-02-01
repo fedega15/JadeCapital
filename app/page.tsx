@@ -25,7 +25,7 @@ export default function Home() {
   };
   return (
     <>
-    <div className="h-screen relative container" id="inicio">
+    <div className="h-screen container" id="inicio">
       <ul >
         <SliderItem
           itemActive={itemActive}
@@ -69,7 +69,7 @@ export default function Home() {
         />
       </ul>
       <Arrows onClickPrev={() => onPrev()} onClickNext={() => onNext()} />
-      <ul  className="absolute bottom-0 z-5 flex sm:justify-end gap-3 w-full h-[230px] sm:h-[250px] px-14 overflow-y-hidden overflow-x-auto ">
+      <ul  className="absolute bottom-0 z-5 flex sm:justify-end gap-3 w-full h-[230px] sm:h-[250px] px-14 overflow-y-hidden overflow-x-auto mb-10">
         <SliderThumbnailsItem
           itemActive={itemActive}
           image="/imgs/2.webp"
